@@ -26,8 +26,7 @@ article h1:hover{color: white; background-color: #0A3464;}
 
 @media screen and (max-width:767px) {
 
-    .navbar-toggler{border: 1px solid gray !important;}
-    .navbar-toggler-icon{background-color: gray !important; color: gray;}
+    
     
 
     #demo{display: none;}
