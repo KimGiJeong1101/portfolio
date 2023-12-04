@@ -14,32 +14,37 @@ body {position: fixed; width: 100%; height: 100%;}
 /* 배경동영상 *********************************************************************************/
 * { box-sizing: border-box; }
 
-.video-background {
-        background: #000;
-        position: fixed;
-        top: 0; right: 0; bottom: 0; left: 0;
-        z-index: -999;
-    }
-.video-background iframe {
-        position: absolute;
-        top: 0; left: 0; width: 100%; height: 100%;
-        pointer-events: none;
-    }
-    @media (min-aspect-ratio: 16/9) {
-    .video-foreground { height: 300%; top: -100%; }
-    }
-    @media (max-aspect-ratio: 16/9) {
-    .video-foreground { width: 300%; left: -100%; }
-    }
-.video-background {width: 100%; height: 100%; position: fixed; opacity: 0.6; top: -40px;}
-.video-foreground {width: 100%; min-width: 1600px}
 
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,.video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+@media (min-aspect-ratio: 16/9) {
+.video-foreground { height: 300%; top: -100%; }
+} 
+
+@media (max-aspect-ratio: 16/9) {
+
+    .video-foreground { width: 300%; left: -100%; }
+
+    }
 
 /* 로고 ****************************************************************************************/
 h1 {position: fixed; top: 40px; left: 40px; z-index:10;}
 h1 img {width: 280px;}
 header {
-    width: 820px; 
+    width: 700px; 
     height: 100%; 
     position: fixed; 
     background: linear-gradient(-30deg, #dddddd, #aaaaaa, #ffffff); 
@@ -84,7 +89,7 @@ header {
 
 
 /* sns ************************************************************/
-#sns{position: fixed; top: 0px; right: 130px; background: radial-gradient(circle, #b98fb9, #b6a797, #c78c8c); width: 60%; height: 150px; z-index: -500; border-radius: 5%;}
+#sns{position: fixed; top: 0px; right: 0px; background: #000; width: 100%; height: 100px; z-index: -500;}
 #sns li{margin-right: 30px; float: right;}
 #sns .fa-brands{font-size: 45px; color: #000; padding: 2px;
                 opacity: 1;
@@ -94,7 +99,7 @@ header {
 h2{color: goldenrod; text-align: center; font-family: 'Monoton', cursive;}
 
 /* 텍스트 박스 */
-.txtBox { width:340px; height:280px; position:fixed; top:450px; right:310px; z-index: 20000; }
+.txtBox { width:340px; height:280px; position:fixed; top:270px; right:220px; z-index: 20000; }
 .txt { position:absolute; top:200px; right:0px; font-size:34px; font-family:Nanum Pen Script; color:#000; letter-spacing:-2px;}
 .txt b { font-family:Nanum Pen Script; color:#000; 	margin-left:20px;}
 .tit { position:absolute; top:0px; right:0px; font-size:160px; color:#000; font-family: 'Monoton', cursive; letter-spacing:-1px;}
