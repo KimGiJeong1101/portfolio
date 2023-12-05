@@ -83,9 +83,12 @@ article h1:hover{color: white; background-color: #0A3464;}
     #footer-mobile{display: block;}
     #footer-pc{display: none;}
 
-    #footer-mobile .card{background-color: rgb(129, 61, 34); border: none; border-radius: 0%;}
-    #footer-mobile .card-header h4{color: white;}
-    #footer-mobile .card-body{color: #cccccc;}
+    #footer-mobile{background: black;border:none;border-radius: 0px;}
+    #footer-mobile .card{background-color: rgb(255, 255, 255); border-radius: 0%;}
+    #footer-mobile .card-header h4{color: #000;}
+    #footer-mobile .card-body{color: #574848;}
+
+    #copyright-mobile{padding-bottom: 50px;color:white;text-align: center;}
     
     
 }
