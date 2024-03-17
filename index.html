@@ -6,6 +6,17 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>KKJ's Portfolio Page</title>
+        <style>
+            .accordion-item {
+                border: none !important;
+            }
+
+            .accordion-button {
+                box-shadow: none !important;
+            }
+
+       
+            </style>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/cicon.ico" />
         <!-- Bootstrap Icons-->
@@ -40,11 +51,11 @@
                 <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-8 align-self-end">
                         <h1 class="text-white font-weight-bold">Your Favorite Place for Free Bootstrap Themes</h1>
-                        <hr class="divider" />
+                        <hr/>
                     </div>
                     <div class="col-lg-8 align-self-baseline">
                         <p class="text-white-75 mb-5">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-                        <a class="btn btn-primary btn-xl" href="#about">둘러보기</a>
+                        <a class="btn btn-light btn-xl" href="#about">둘러보기</a>
                     </div>
                 </div>
             </div>
@@ -66,36 +77,119 @@
         <section class="page-section" id="services">
             <div class="container px-4 px-lg-5">
                 <h2 class="text-center mt-0">Used Skill</h2>
-                <hr class="divider" />
+                <hr/>
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Sturdy Themes</h3>
-                            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              <h6><strong>FrontEnd</strong></h6>
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Up to Date</h3>
-                            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h6><strong>BackEnd</strong></h6>
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Ready to Publish</h3>
-                            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
+                        
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h6><strong>DataBase</strong></h6>
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                            </div>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 text-center">
-                        <div class="mt-5">
-                            <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Made with Love</h3>
-                            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-                        </div>
-                    </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                <h6><strong>Developer Tools</strong></h6>
+                              </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                              <div class="accordion-body">
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; float: left; margin: 5px; padding: 5px;">
+                                    <div style="width: 80px; height: 80px; background-color: aqua;">아이콘</div>
+                                    <div>편집중입니다.</div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
                 </div>
             </div>
         </section>
@@ -107,7 +201,7 @@
                         <a class="portfolio-box" href="https://kimgijeong1101.github.io/portfolio/company" target="_blank" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/kdigital.jpg" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category" style="color: black;">&lt;Project&gt;</div>
+                                <div class="project-category" style="color: black;">&lt;Toy Project&gt;</div>
                                 <div class="project-name" style="color: black;">글로벌IT교육개발원 Demo</div>
                                 <div>html5, css3, bootstrap, responsive web</div>
                             </div>
@@ -117,7 +211,7 @@
                         <a class="portfolio-box" href="https://kimgijeong1101.github.io/portfolio/hyundai/" target="_blank" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/hyundai.jpg" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category" style="color: black;">&lt;Project&gt;</div>
+                                <div class="project-category" style="color: black;">&lt;Toy Project&gt;</div>
                                 <div class="project-name" style="color: black;">현대자동차 Demo</div>
                                 <div>html5, css3, bootstrap, responsive web</div>
                             </div>
@@ -127,7 +221,7 @@
                         <a class="portfolio-box" href="https://kimgijeong1101.github.io/portfolio/swf/" target="_blank" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/swf.jpg" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category" style="color: black;">&lt;Project&gt;</div>
+                                <div class="project-category" style="color: black;">&lt;Toy Project&gt;</div>
                                 <div class="project-name" style="color: black;">Brand 홍보페이지</div>
                                 <div>html5, css3, responsive web, 동영상 배경화면</div>
                             </div>
@@ -137,7 +231,7 @@
                         <a class="portfolio-box" href="assets/img/Haksavideo.mp4" target="_blank" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/Haksa.jpg" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category" style="color: black;">&lt;Project&gt;</div>
+                                <div class="project-category" style="color: black;">&lt;Toy Project&gt;</div>
                                 <div class="project-name" style="color: black;">학사관리 Program</div>
                                 <div>JAVA(Swing), Oracle(JDBC)</div>
                             </div>
@@ -147,7 +241,7 @@
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/5.jpg" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/ready.jpg" alt="..." />
                             <div class="portfolio-box-caption">
-                                <div class="project-category" style="color: black;">&lt;Project&gt;</div>
+                                <div class="project-category" style="color: black;">&lt;Team Project&gt;</div>
                                 <div class="project-name" style="color: black;">Project Name</div>
                                 <div>안녕하세요 다음 프로젝트 업로드 준비중입니다.</div>
                             </div>
@@ -157,7 +251,7 @@
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/ready.jpg" alt="..." />
                             <div class="portfolio-box-caption p-3">
-                                <div class="project-category" style="color: black;">&lt;Project&gt;</div>
+                                <div class="project-category" style="color: black;">&lt;Team Project&gt;</div>
                                 <div class="project-name" style="color: black;">Project Name</div>
                                 <div>안녕하세요 다음 프로젝트 업로드 준비중입니다.</div>
                             </div>
